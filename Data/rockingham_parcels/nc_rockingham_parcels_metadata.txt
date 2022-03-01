@@ -1,0 +1,2185 @@
+Identification_Information:
+
+
+  Citation:
+
+
+    Citation_Information:
+
+
+      Originator: Rockingham County
+
+
+      Publication_Date: 20220110
+
+
+      Publication_Time: Unknown
+
+
+      Title: Parcel Boundaries and Standard Fields, Integrated Cadastral Data Exchange, Rockingham County, North Carolina
+
+
+      Geospatial_Data_Presentation_Form: vector digital data
+
+
+      Online_Linkage: http://data.nconemap.gov
+
+
+  Description:
+
+
+    Abstract: This digital geospatial dataset represents parcel boundaries with standard core attributes for a parcel data from Rockingham County, transformed by the North Carolina Integrated Cadastral Data Exchange project.  This is one of 100 counties that share source datasets as a basis for a standardized dataset with consistent attributes (fields).  The individual standardized county data sets are designed to be aggregated into a single dataset. The source geometry as published by individual county data producers is unchanged by the standardization of attributes.  This dataset includes attributes such as ownership, area in acres, assessed value, and other core cadastral attributes.
+
+
+    Purpose: This dataset was generated to publish a set of parcel polygons with standardized attributes for statewide analysis and mapping in North Carolina. The integrated data is intended to serve business needs that require information from multiple counties, e.g., response to a natural disaster, analysis of economic development potential, environmental assessments, and highway planning to name a few.  An aggregated cadastral dataset serves to support and assist governmental agencies and others in resource management decisions. Additionally, these data provide a set of core attributes defined by the Integrated Cadastral Data Exchange project with the intention of adoption by the North Carolina Geographic Information Coordinating Council to update the current North Carolina Content Elements for Statewide Publication of Core Geospatial Parcel Data. The aggregated dataset is intended to facilitate the sharing, display, and use of cadastral data across the state.
+
+
+    Supplemental_Information: The NC Parcel Transformer applications and web feature service were developed under a grant from the US Environmental Protection Agency, Environmental Information Exchange Network, to the NC Department of Information Technology.  The project was initiated by the NC Geographic Information Coordinating Council, Statewide Mapping Advisory Committee's Working Group for Seamless Parcels in 2009. The project team includes NC Center for Geographic Information and Analysis (grant and project manager), Eastern Band of Cherokee Indians, the Land Records Management Program in the Department of the Secretary of State, NC Department of Transportation, NC Division of Emergency Management, NC Department of Revenue, and a contractor team managed by The Carbon Project, Inc. that included Fairview Industries, Inc., and Atlas Geographic Data, Inc. The source data provided by North Carolina counties is prepared for the inventory of real property found within a jurisdiction and is compiled from recorded deeds, plats, and other public records and data. Assessed value of real property is based on market value as defined in the Machinery Act of North Carolina (Section 105-283). The year of latest appraisal of value varies by county. Users of this dataset are hereby notified that the authoritative information sources should be consulted for more information about the source data. The State of North Carolina assumes no legal responsibility for information contained in this dataset. The information on time and reference is for the transformed data set. Information on county contributed data must be obtained from the identified data steward. The data steward for each parcel dataset is identified in the core dataset attributes.The initial aggregated parcel dataset included 25 of 100 counties in North Carolina. The 2015 dataset included all counties and lands of the Eastern Band of Cherokee Indians. 
+
+
+  Time_Period_of_Content:
+
+
+    Time_Period_Information:
+
+
+      Single_Date/Time:
+
+
+        Calendar_Date: 20220110
+
+
+        Time_of_Day: unknown
+
+
+    Currentness_Reference: publication date
+
+
+  Status:
+
+
+    Progress: In work
+
+
+    Maintenance_and_Update_Frequency: As needed
+
+
+  Spatial_Domain:
+
+
+    Bounding_Coordinates:
+
+
+      West_Bounding_Coordinate: -84.387003
+
+
+      East_Bounding_Coordinate: -75.417851
+
+
+      North_Bounding_Coordinate: 36.588809
+
+
+      South_Bounding_Coordinate: 33.845487
+
+
+  Keywords:
+
+
+    Theme:
+
+
+      Theme_Keyword_Thesaurus: FGDC Cadastral Subcommittee Data Content Standard
+
+
+      Theme_Keyword: Land records
+
+
+      Theme_Keyword: Cadastral
+
+
+      Theme_Keyword: Parcel data
+
+
+      Theme_Keyword: Assessment
+
+
+      Theme_Keyword: Mapping
+
+
+      Theme_Keyword: Parcel ownership
+
+
+      Theme_Keyword: Land
+
+
+      Theme_Keyword: Cadastral
+
+
+      Theme_Keyword: Parcel
+
+      Theme_Keyword: Parcels
+
+
+      Theme_Keyword: Ownership
+
+
+      Theme_Keyword: Property
+
+
+      Theme_Keyword: Tax parcel
+
+
+      Theme_Keyword: Assessed value
+
+
+      Theme_Keyword: Land use
+
+
+      Theme_Keyword: Building value
+
+
+      Theme_Keyword: Land value
+
+
+      Theme_Keyword: Cadastre
+
+
+      Theme_Keyword: Planning
+
+
+      Theme_Keyword: Owner
+
+      Theme_Keyword: Seamless
+
+      Theme_Keyword: WGSP
+
+      Theme_Keyword: Working Group for Seamless Parcels
+
+
+      Theme_Keyword: Property boundaries
+
+
+    Theme:
+
+
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+
+
+      Theme_Keyword: PlanningCadastre
+
+
+      Theme_Keyword: 015
+
+
+    Place:
+
+
+      Place_Keyword_Thesaurus: William S. Powell, The North Carolina GAZETTEER, A
+
+
+      Place_Keyword: North Carolina
+
+
+      Place_Keyword: USA
+
+
+      Place_Keyword: North America
+
+
+  Access_Constraints: Data may be accessed and viewed online. For authoritative source data, contact the Identified Data Steward of the North Carolina county or counties of interest.
+
+
+  Use_Constraints: This dataset is an inventory of county representations of tax parcels.  This dataset is not a survey document and should not be utilized as such. An excerpt from an opinion of the NC Attorney General in 1982 is relevant for this dataset and its constituent source datasets: “North Carolina General Statutes 143-345.6(c) 92) provides that the Secretary of Administration “shall, in cooperation with the Secretary of Revenue, conduct a program for the preparation of county property-line maps under the direction of qualified surveyors pursuant to standards prepared by the Departments of Revenue and Natural Resources and Community Development.” The mapping program is part of the "land records management program" which the Legislature has directed the Secretary of Administration to establish "for the purposes (i) of advising registers of deeds, local tax officials, and local planning officials about sound management practices; and (ii) of establishing greater uniformity in local land records systems" G.S.143-345.6(a).  Thus, the program's sole purposes are directed toward needs of units of government.  There is not the least intimation that it is, or is intended to be, a substitute for the certificate of title provided by an attorney who has examined the record title to land for a client, or for a surveyor's certificate and plat provided by a professional engineer or registered land surveyor who has located the lines on the ground, examined the land for easements, encroachments, etc. and reported the same to his client.  It is our opinion that by providing a copy of a map, prepared purely and simply for the purposes mandated by the land records management program, to one who purchases it for some other use, no unit of government or local official incurs any liability to the purchaser or user for errors on the map.”  See http://ncdoj.gov/About-DOJ/Legal-Services/Legal-Opinions/Opinions/52-13.aspx. Note: The Land Records Management Program was transferred from the Department of Administration to the Department of the Secretary of State after this opinion by the Attorney General.
+
+
+  Point_of_Contact:
+
+
+    Contact_Information:
+
+
+      Contact_Organization_Primary:
+
+
+        Contact_Organization: NC Center for Geographic Information and Analysis
+
+
+      Contact_Address:
+
+
+        Address_Type: mailing address
+
+
+        Address: 20322 Mail Service Center
+
+
+        City: Raleigh
+
+
+        State_or_Province: NC
+
+
+        Postal_Code: 27699
+
+
+        Country: USA
+
+
+      Hours_of_Service: 8:00 - 5:00 EST
+
+
+      Contact_Instructions: Please submit any questions or comments through the NC OneMap feedback page found here: https://www.nconemap.gov/pages/feedback
+
+
+  Data_Set_Credit: This dataset was transformed by the Project Team and Vendor Team for the NC Integrated Cadastral Data Exchange Project, funded by US EPA Environmental Information Exchange Network.  Source datasets were furnished by data managers in North Carolina Counties and the Eastern Band of Cherokee Indians.    
+
+
+Data_Quality_Information:
+
+
+  Attribute_Accuracy:
+
+
+    Attribute_Accuracy_Report: Accuracy of attributes depends on the accuracy in source datasets and appropriate translation of county published attribute names to standard core parcel attribute names.  The Project Team and Vendor Team used spot checks of attributes compared to source datasets. Visual inspection of selected parcels included location address attributes over a street network.  In addition, the project reviewed missing values in the core attributes identified in the attribute database.  
+
+
+  Logical_Consistency_Report: Source data managers (data stewards) and parcel mappers use GIS software to check for topology consistency during the parcel mapping process.  Source quality control ensures there are no duplicate lines, gaps, overlaps, undershoots, or overshoots.  For this integrated dataset, geometry is accepted as published by the source. 
+
+
+  Completeness_Report: Source data managers are expected to create and maintain all boundary lines represented on deeds and plats transferred to digital files; map definition conforms to the "Technical Specifications for Base, Cadastral and Digital Mapping" (NC Land Records Management Program, NC  Secretary of State's Office).
+
+
+  Positional_Accuracy:
+
+
+    Horizontal_Positional_Accuracy:
+
+
+      Horizontal_Positional_Accuracy_Report: Typically, the source datasets were originally compiled by digitizing tax maps and were compiled according to the "Specifications for Base, Cadastral and Digital Mapping" (NC Land Records Management Program, NC Secretary of State's Office).  For updates, information from deeds and plats were digitized and entered using coordinate geometry and adjusted to or with the surrounding existing line work.  Attributes were transferred from recorded deeds and plats.  Unrecorded plats may be used also for accuracy reference.  Control is also provided by referencing quality standard orthophoto base maps during the mapping process.
+
+
+  Lineage:
+
+
+    Source_Information:
+
+
+      Source_Citation:
+
+
+        Citation_Information:
+
+
+          Originator: Rockingham County, North Carolina, GIS Manager
+
+
+          Publication_Date: 20220110
+
+
+          Publication_Time: Unknown
+
+
+          Title: Parcels
+
+
+          Geospatial_Data_Presentation_Form: vectors in shapefile format
+
+
+          Publication_Information:
+
+
+            Publication_Place: Rockingham County, North Carolina
+
+
+            Publisher: Rockingham County 
+
+
+          Other_Citation_Details: Source parcel datasets are published by Rockingham County and transformed by the NC Integrated Cadastral Data Exchange project. For source parcel data, consult a directory of county web viewers and download sites available from the NC State University Library at the following URL. Online_Linkage: http://www.lib.ncsu.edu/gis/counties.html
+
+
+      Source_Scale_Denominator: 1200
+
+
+      Type_of_Source_Media: file transfer protocol
+
+
+      Source_Time_Period_of_Content:
+
+
+        Time_Period_Information:
+
+
+          Single_Date/Time:
+
+
+            Calendar_Date: 20220110
+
+
+            Time_of_Day: unknown
+
+
+        Source_Currentness_Reference: Publication date
+
+
+      Source_Citation_Abbreviation: parcels
+
+
+      Source_Contribution: Parcel datasets are used as the source for geometry (accepted as is from the county data provider) and attributes (for translation to standard fields) for integrated datasets.
+
+
+    Source_Information:
+
+
+      Source_Citation:
+
+
+        Citation_Information:
+
+
+          Originator: NC Statewide Mapping Advisory Committee's Working Group for Seamless Parcels
+
+
+          Publication_Date: 2013
+
+
+          Publication_Time: Unknown
+
+
+          Title: Standard Core Cadastral Attributes for Integrated Cadastral Data Exchange
+
+
+          Publication_Information:
+
+
+            Publication_Place: Raleigh, NC
+
+
+            Publisher: State of North Carolina
+
+
+          Online_Linkage: https://it.nc.gov/gicc
+
+
+      Type_of_Source_Media: digital document
+
+
+      Source_Time_Period_of_Content:
+
+
+        Time_Period_Information:
+
+
+          Range_of_Dates/Times:
+
+
+            Beginning_Date: 2009
+
+
+            Beginning_Time: unknown
+
+
+            Ending_Date: 2017
+
+
+        Source_Currentness_Reference: Publication
+
+
+      Source_Citation_Abbreviation: standard core cadastral
+
+
+      Source_Contribution: The standard is the target set of attributes to which the source county parcel datasets are translated to standard fields for multi-county aggregation. 
+
+
+    Process_Step:
+
+
+      Process_Description: Rockingham County published parcel data as polygons as a source dataset for the transformer applied by the Integrated Cadastral Data Exchange.  Rockingham County County applied methods and techniques consistent with North Carolina standards to maintain tax parcel boundaries, join attributes from a Comptuer Assisted Mass Appraisal system, and publish a parcel dataset.  For more information on the parcel data management process in Rockingham County County, contact the county GIS manager. 
+
+
+      Process_Date: 20220110
+
+
+      Process_Contact:
+
+
+        Contact_Information:
+
+
+          Contact_Organization_Primary:
+
+
+            Contact_Organization: Rockingham County
+
+
+            Contact_Person: unknown
+
+
+          Contact_Position: unknown
+
+
+          Contact_Address:
+
+
+            Address_Type: mailing and physical address
+
+
+            Address: unknown
+
+
+            City: unknown
+
+
+            State_or_Province: NC
+
+
+            Postal_Code: unknown
+
+
+            Country: USA
+
+
+          Contact_Voice_Telephone: unknown
+
+
+          Contact_Electronic_Mail_Address: unknown
+
+
+          Hours_of_Service: 8:30 - 5:00  EST
+
+    Process_Step:
+
+
+      Process_Description: The contractor for the Integrated Cadastral Data Exchange, the Carbon Project, Inc., designed a geospatial database with a parcel data schema consistent with the core standard developed by the Working Group for Seamless Parcels.  Subject matter experts on the contractor's team (Fairview Industries, Inc. and Atlas Geographic Data, Inc.) analyzed source cadastral datasets, developed crosswalks to the standard attributes, and identified domains, enumerations, and queries to aid the translation. Carbon Project, Inc. developed an application to transform source datasets to standard datasets (translating source fields to core standard fields).  Carbon Project, Inc. generated vector data in shapefile format and web services in multiple formats for data exchange. Quality control was accomplished by comparing sample parcel identification numbers with source datasets and comparing the number of records in source and transformed datasets. Geometry was accepted as submitted by the sources. Proejction was verified (NC State Plane, NAD 1983 US Survey feet).  
+
+      Process_Date: 2013
+
+
+      Process_Contact:
+
+
+        Contact_Information:
+
+
+          Contact_Organization_Primary:
+
+
+            Contact_Organization: Carbon Project, Inc.
+
+
+            Contact_Person: Jeff Harrison
+
+
+          Contact_Position: Project Manager
+
+
+          Contact_Address:
+
+
+            Address_Type: mailing and physical address
+
+
+            Address: 101 Cambridge Street, Ste 365
+
+
+            City: Burlington
+
+
+            State_or_Province: MA
+
+
+            Postal_Code: 01803-4144
+
+
+            Country: USA
+
+
+          Contact_Voice_Telephone: 703-628-8655
+
+
+          Contact_Electronic_Mail_Address: jharrison@carboncloud.net
+
+
+          Hours_of_Service: 8:30 - 5:00  EST
+
+
+Spatial_Data_Organization_Information:
+
+  Direct_Spatial_Reference_Method: Vector
+
+  Point_and_Vector_Object_Information:
+
+    SDTS_Terms_Description:
+
+      SDTS_Point_and_Vector_Object_Type: G-polygon
+
+Spatial_Reference_Information:
+
+  Horizontal_Coordinate_System_Definition:
+
+    Planar:
+
+      Map_Projection:
+
+        Map_Projection_Name: Lambert Conformal Conic
+
+        Lambert_Conformal_Conic:
+
+          Standard_Parallel: 34.333333
+
+          Standard_Parallel: 36.166667
+
+          Longitude_of_Central_Meridian: -79.000000
+
+          Latitude_of_Projection_Origin: 33.750000
+
+          False_Easting: 2000000.002617
+
+          False_Northing: 0.000000
+
+      Planar_Coordinate_Information:
+
+        Planar_Coordinate_Encoding_Method: coordinate pair
+
+        Coordinate_Representation:
+
+          Abscissa_Resolution: 0.000008
+
+          Ordinate_Resolution: 0.000008
+
+        Planar_Distance_Units: survey feet
+
+    Geodetic_Model:
+
+      Horizontal_Datum_Name: North American Datum of 1983
+
+      Ellipsoid_Name: Geodetic Reference System 80
+
+      Semi-major_Axis: 6378137.000000
+
+      Denominator_of_Flattening_Ratio: 298.257222
+
+Entity_and_Attribute_Information:
+
+  Detailed_Description:
+
+    Entity_Type:
+
+
+      Entity_Type_Label: Core cadastral data for North Carolina
+
+
+      Entity_Type_Definition: Polygons that represent land ownership with attributes that represent core cadastral data in North Carolina.
+
+
+      Entity_Type_Definition_Source: NC Center for Geographic Information and Analysis, Integrated Cadastral Data Exchange Project
+
+
+    Attribute:
+
+
+      Attribute_Label: FID
+
+
+      Attribute_Definition: Internal feature number.
+
+
+      Attribute_Definition_Source: ESRI
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+
+
+    Attribute:
+
+
+      Attribute_Label: Shape
+
+
+      Attribute_Definition: Feature geometry.
+
+
+      Attribute_Definition_Source: ESRI
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Coordinates defining the features.
+
+
+    Attribute:
+
+
+      Attribute_Label: STNAME
+
+
+      Attribute_Definition: State name
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Codeset_Domain:
+
+
+          Codeset_Name: Standard Postal Service State Abbreviations
+
+
+          Codeset_Source: US Postal Service
+
+
+    Attribute:
+
+
+      Attribute_Label: STFIPS
+
+
+      Attribute_Definition: The state FIPS  code, 2-digit code.
+
+
+      Attribute_Definition_Source: FGDC Cadastral Data Content Standard version 1.4.
+
+
+      Attribute_Domain_Values: 
+
+
+        Codeset_Domain:
+
+
+          Codeset_Name: State FIPS Codes
+
+
+          Codeset_Source: Federal Information Processing Standards
+
+
+    Attribute:
+
+
+      Attribute_Label: CNTYNAME
+
+
+      Attribute_Definition: Name of the county that is the source of the land record.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: CNTYFIPS
+
+
+      Attribute_Definition: The county FIPS code 3-digit code.
+
+
+      Attribute_Definition_Source: FGDC Cadastral Data Content Standard version 1.4.
+
+
+      Attribute_Domain_Values: 
+
+
+        Codeset_Domain:
+
+
+          Codeset_Name: County FIPS Codes
+
+
+          Codeset_Source: Federal Information Processing Standards
+
+
+    Attribute:
+
+
+      Attribute_Label: STCNTYFIPS
+
+
+      Attribute_Definition: The state and county FIPS codes combined as a single field.  Used to relate and link the parcel information to other records.   It creates a unique national parcel identifier when used as a prefix to the local parcel number.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values: 
+
+
+        Codeset_Domain:
+
+
+          Codeset_Name: Derived from State and County FIPS Codes
+
+
+          Codeset_Source: Federal Information Processing Standards
+
+
+    Attribute:
+
+
+      Attribute_Label: GNISID
+
+
+      Attribute_Definition: The Geographic Names Information System identifier for the local place for the parcel.  The default value is the county GNIS number but as this data set develops, individual parcels may have a GNIS identifier, such as local parks or attractions. 
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Unique values.
+
+
+    Attribute:
+
+
+      Attribute_Label: SOURCEAGNT
+
+
+      Attribute_Definition: The originating agency or source of the information for the feature or the data steward for data set.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: PARNO
+
+
+      Attribute_Definition: The local parcel number for the parcel record (parcel identification number)
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Values defined by the jurisdiction based on the state plane coordinates of the parcel centroid.  Ideally, PIN is a unique identifier, but different polygons may share the same Parcel ID in some cases.
+
+
+    Attribute:
+
+
+      Attribute_Label: NPARNO
+
+
+      Attribute_Definition: The local parcel number with the state and county FIPS added to the beginning of the local parcel number (PARNO).
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Code values plus Values defined by the jurisdiction based on the state plane coordinates of the parcel centroid.  Ideally, PIN is a unique identifier, but different polygons may share the same Parcel ID in some cases.
+
+
+    Attribute:
+
+
+      Attribute_Label: ALTPARNO
+
+
+      Attribute_Definition: An alternate local parcel number for the parcel record 
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Values defined by the jurisdiction.
+
+    Attribute:
+
+
+      Attribute_Label: PARUSECODE
+
+
+      Attribute_Definition: The local assessment parcel use code, this is the primary use of the parcel.  The code may be the items in the such as governmental, vacant, commercial, etc.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Codes vary by source jurisdiction.
+
+
+    Attribute:
+
+
+      Attribute_Label: PARUSEDESC
+
+
+      Attribute_Definition: The local assessment parcel use description, which could include additional use descriptions in the present use attribute in CAMA such as, agriculture, forestry etc.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Descriptions vary by source jurisdiction.
+
+
+    Attribute:
+
+
+      Attribute_Label: PARUSEDSC2
+
+
+      Attribute_Definition: Description for the secondary use for the parcel, such as residential, agriculture, forestry, etc. 
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Codes vary by source jurisdiction.
+
+    Attribute:
+
+
+      Attribute_Label: PARUSECD2
+
+
+      Attribute_Definition: Structure use code or building type such as single family, modular, commercial etc. The secondary use code applies to the structures on the parcels.  The code may be the items such as governmental, vacant, commercial, etc.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Codes vary by source jurisdiction.
+
+    Attribute:
+
+
+      Attribute_Label: STRUCT
+
+
+      Attribute_Definition: Presence of a structure or improvement on the parcel.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Enumerated_Domain:
+
+
+          Enumerated_Domain_Value: Y
+
+
+          Enumerated_Domain_Value_Definition: Yes, there is an improvement or structure on the parcel
+
+
+          Enumerated_Domain_Value_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+        Enumerated_Domain:
+
+
+          Enumerated_Domain_Value: N
+
+
+          Enumerated_Domain_Value_Definition: No, there is not an improvement or structure on the parcel
+
+
+          Enumerated_Domain_Value_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+        Enumerated_Domain:
+
+
+          Enumerated_Domain_Value: U
+
+
+          Enumerated_Domain_Value_Definition: Unknown if there is an improvement or structure on the parcel (default value)
+
+
+          Enumerated_Domain_Value_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+    Attribute:
+
+
+      Attribute_Label: MULTISTRUC
+
+
+      Attribute_Definition: Presence of multiple structures (more than one structure or improvement on the parcel).
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Enumerated_Domain:
+
+
+          Enumerated_Domain_Value: Y
+
+
+          Enumerated_Domain_Value_Definition: Yes, there are multiple improvements or structures on the parcel
+
+
+          Enumerated_Domain_Value_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+        Enumerated_Domain:
+
+
+          Enumerated_Domain_Value: N
+
+
+          Enumerated_Domain_Value_Definition: No, there is not more than one improvement or structure on the parcel
+
+
+          Enumerated_Domain_Value_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+        Enumerated_Domain:
+
+
+          Enumerated_Domain_Value: U
+
+
+          Enumerated_Domain_Value_Definition: Unknown if there are multiple improvements or structures on the parcel (default value)
+
+
+          Enumerated_Domain_Value_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+    Attribute:
+
+
+      Attribute_Label: STRUCTNO
+
+
+      Attribute_Definition: The number of structures on the parcel.  This is populated when the source data indicates how many structures, for purposes including emergency planning and response. 
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Numbers vary by parcel.
+
+
+    Attribute:
+
+
+      Attribute_Label: STRUCTYEAR
+
+
+      Attribute_Definition: The year of construction for the primary building on the parcel.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+    Attribute:
+
+
+      Attribute_Label: IMPROVVAL
+
+
+      Attribute_Definition: The value of the improvements on the parcel in dollars.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: LANDVAL
+
+
+      Attribute_Definition: The value of the land represented by the parcel in dollars.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: PARVALTYPE
+
+
+      Attribute_Definition: The type of value reported in the parcel value fields such as assessed or market value.  
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions March 2017
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable; domain to be defined after analysis of county records.
+
+    Attribute:
+
+
+      Attribute_Label: PRESENTVAL
+
+
+      Attribute_Definition: Present use value is a classfication of a property that is assessed based on its present use in agriculature, forestry, or horticulture and not based on an appraised value for property that could be developed for other uses such as residential or commercial. 
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions March 2017
+
+
+      Attribute_Domain_Values:
+
+
+        Enumerated_Domain:
+
+
+          Enumerated_Domain_Value: Y
+
+
+          Enumerated_Domain_Value_Definition: Yes, the property is assessed by a present use value method
+
+
+          Enumerated_Domain_Value_Definition_Source: North Carolina Core Parcel Element Definitions March 2017
+
+
+        Enumerated_Domain:
+
+
+          Enumerated_Domain_Value: N
+
+
+          Enumerated_Domain_Value_Definition: No, the property is not assessed by a present use value method
+
+
+          Enumerated_Domain_Value_Definition_Source: North Carolina Core Parcel Element Definitions March 2017
+
+
+        Enumerated_Domain:
+
+
+          Enumerated_Domain_Value: U
+
+
+          Enumerated_Domain_Value_Definition: Unknown if the property is assessed by a present use value method (default value)
+
+
+          Enumerated_Domain_Value_Definition_Source: North Carolina Core Parcel Element Definitions March 2017
+
+    Attribute:
+
+
+      Attribute_Label: PARVAL
+
+
+      Attribute_Definition: The total value of the parcel (IMPROVVAL + LANDVAL) in dollars.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: OWNTYPE
+
+
+      Attribute_Definition: Classification of owner type (taxable or exempt status or other types to be added)
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Enumerated_Domain:
+
+
+          Enumerated_Domain_Value: Taxable
+
+
+          Enumerated_Domain_Value_Definition: Parcel is subject to property tax
+
+
+          Enumerated_Domain_Value_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+        Enumerated_Domain:
+
+
+          Enumerated_Domain_Value: Non-taxable
+
+
+          Enumerated_Domain_Value_Definition: Parcel is exempt from taxation (i. e., public lands, religious property, charitable purposes)
+
+
+          Enumerated_Domain_Value_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+    Attribute:
+
+
+      Attribute_Label: OWNNAME
+
+
+      Attribute_Definition: The full name of the primary property owner (surface owner).
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: OWNNAME2
+
+
+      Attribute_Definition: The full name of an additional property owner (surface owner) if in a separate field in the source.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions March 2017
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+    Attribute:
+
+
+      Attribute_Label: OWNFRST
+
+
+      Attribute_Definition: The first name of the primary property owner (surface owner).
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: OWNLAST
+
+
+      Attribute_Definition: The last name of the primary property owner (surface owner).
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: SUBSURFOWN
+
+
+      Attribute_Definition: The full name of the subsurface rights owner.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: SUBOWNTYPE
+
+
+      Attribute_Definition: Classification of subsurface rights owner type (taxable or exempt status or other types to be added)
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Enumerated_Domain:
+
+
+          Enumerated_Domain_Value: Taxable
+
+
+          Enumerated_Domain_Value_Definition: Parcel is subject to property tax
+
+
+          Enumerated_Domain_Value_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+        Enumerated_Domain:
+
+
+          Enumerated_Domain_Value: Exempt
+
+
+          Enumerated_Domain_Value_Definition: Parcel is exempt from taxation (i. e., public lands, religious property, charitable purposes)
+
+
+          Enumerated_Domain_Value_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+    Attribute:
+
+
+      Attribute_Label: MAILADD
+
+
+      Attribute_Definition: The full mailing address as a single field.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: MADDRNO
+
+
+      Attribute_Definition: The mailing address street number.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: MADDSTNAME
+
+
+      Attribute_Definition: The mailing street name, the name without the type and directions.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: MADDPREF
+
+
+      Attribute_Definition: The mailing address prefix.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: MADDSTR
+
+
+      Attribute_Definition: The mailing street name, the name without the type and directions.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: MADDSTTYP
+
+
+      Attribute_Definition: The mailing street type, such as ST, AVE, BLVD.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: MADDSTSUF
+
+
+      Attribute_Definition: The mailing street suffix, typically a direction.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: MUNIT
+
+
+      Attribute_Definition: The mailing address unit, suite or apartment number; and may also be the half number.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: MCITY
+
+
+      Attribute_Definition: The mailing city name.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: MSTATE
+
+
+      Attribute_Definition: The mailing state name, two letter abbreviation.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Codeset_Domain:
+
+
+          Codeset_Name: Standard Postal Service State Abbreviations
+
+
+          Codeset_Source: US Postal Service
+
+
+    Attribute:
+
+
+      Attribute_Label: MZIP
+
+
+      Attribute_Definition: The mailing zip code.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable as assigned by US Postal Service.
+
+
+    Attribute:
+
+
+      Attribute_Label: SITEADD
+
+
+      Attribute_Definition: The full site address as a single field.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: SADDNO
+
+
+      Attribute_Definition: The site address street number.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: SADDSTNAME
+
+
+      Attribute_Definition: The site street name, the name without the type and directions.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: SADDPREF
+
+
+      Attribute_Definition: The site address prefix.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: SADDSTR
+
+
+      Attribute_Definition: The site street name, the name without the type and directions.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: SADDSTTYP
+
+
+      Attribute_Definition: The site street type, such as ST, AVE, BLVD.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: SADDSTSUF
+
+
+      Attribute_Definition: The site street suffix, typically a direction.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: SUNIT
+
+
+      Attribute_Definition: The site address unit, suite or apartment number; and may also be the half number.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: SCITY
+
+
+      Attribute_Definition: The site city name.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: SSTATE
+
+
+      Attribute_Definition: The site state name, two-letter abbreviation. Default to NC. The site should be in the state but there may be border situations where this needs to be tracked.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Codeset_Domain:
+
+
+          Codeset_Name: Standard Postal Service State Abbreviations
+
+
+          Codeset_Source: US Postal Service
+
+
+    Attribute:
+
+
+      Attribute_Label: SZIP
+
+
+      Attribute_Definition: The site zip code.  This may not be the same as the mailing address zip code. If maintained and available, this supports physical address delivery and the vehicle tax system.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+    Attribute:
+
+
+      Attribute_Label: LEGDECFULL
+
+
+      Attribute_Definition: The full tax legal description, useful where the parcel data does not include a map of the parcel.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: SUBDIVISIO
+
+
+      Attribute_Definition: The name of the subdivision or condo that the parcel is in.  
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: SOURCEREF
+
+
+      Attribute_Definition: The reference to the source document.  This could be a reference to a deed book and page as well as including the document type.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable    
+
+    Attribute:
+
+
+      Attribute_Label: MAPREF
+
+
+      Attribute_Definition: The reference to the source map.  This could be a reference to a map or plat as well as including the document type.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions March 2017
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: SOURCEDATE
+
+
+      Attribute_Definition: The date of the source document (listed in the source reference) that was used to generate the parcel information.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable    
+
+
+    Attribute:
+
+
+      Attribute_Label: SOURCEDATX
+
+
+      Attribute_Definition: The source document date as a text field.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: SALEDATE
+
+
+      Attribute_Definition: The date of the last property sale if available.  This is expressed as a date field.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+    Attribute:
+
+
+      Attribute_Label: SALEDATETX
+
+
+      Attribute_Definition: The date of the last property sale if available.  This is expressed as a text field.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+    Attribute:
+
+
+      Attribute_Label: RECAREANO
+
+
+      Attribute_Definition: The record or recorded area as a numeric field (deed acres).
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable    
+
+
+    Attribute:
+
+
+      Attribute_Label: RECAREATX
+
+
+      Attribute_Definition: The record or recorded area expressed as a text field. This may include the units of area as well.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable    
+
+    Attribute:
+
+
+      Attribute_Label: GISACRES
+
+
+      Attribute_Definition: The area of the feature in acres - computed from the GIS, this is not the recorded area.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable    
+
+
+    Attribute:
+
+
+      Attribute_Label: REVISEDATE
+
+
+      Attribute_Definition: The date of the last revision of the parcel record, this will primarily be the revision for the geometry.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: REVDATETX
+
+
+      Attribute_Definition: The date of the last revision of the parcel record expressed as a text field.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+
+    Attribute:
+
+
+      Attribute_Label: REVISEYEAR
+
+
+      Attribute_Definition: The year of the last revision of the parcel record expressed as a text field.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+    Attribute:
+
+
+      Attribute_Label: TRANSFDATE
+
+
+      Attribute_Definition: The date of transformation of the source parcels to a standardized dataset. Transformation occurs in most cases the same day as the latest available county parcel dataset is uploaded to the Transformer. The latest available county parcel dataset may vary from county to county in its currency in terms of associated county property tax records and property boundaries. This is expressed as a date field.
+
+
+      Attribute_Definition_Source: North Carolina Core Parcel Element Definitions June 2013
+
+
+      Attribute_Domain_Values:
+
+
+        Unrepresentable_Domain: Variable
+
+  Overview_Description:
+
+
+    Entity_and_Attribute_Overview: The attributes are publication elements that meet common producer and stakeholder needs for sharing, display, and use of geospatial parcel data, especially to cast into regional and statewide applications. As part of the NC Integrated Cadastral Data Exchange Project, a tool that transforms the county source parcel attributes to a standard set of attributes produces a translation model that may be expressed as a cross-walk from the source (shared by the county) to the target (standard core attributes).
+
+    Entity_and_Attribute_Detail_Citation: North Carolina Core Parcel Element Definitions June 2013 with reference to the North Carolina Content Elements for Statewide Publication of Core Geospatial Parcel Data, 2005. The standard was updated in 2016. 
+
+
+Distribution_Information:
+
+
+  Distributor:
+
+
+    Contact_Information:
+
+
+      Contact_Organization_Primary:
+
+
+        Contact_Organization: NC Center for Geographic Information and Analysis
+
+
+        Contact_Person: David Giordano
+
+
+      Contact_Position: NC OneMap Database Administrator
+
+
+      Contact_Address:
+
+
+        Address_Type: mailing address
+
+
+        Address: 20322 Mail Service Center
+
+
+        City: Raleigh
+
+
+        State_or_Province: NC
+
+
+        Postal_Code: 27699
+
+
+        Country: USA
+
+
+      Contact_Voice_Telephone: 919-754-6585
+
+
+      Contact_Facsimile_Telephone: 919-715-8551
+
+
+      Contact_Electronic_Mail_Address: nconemap@its.nc.gov 
+
+
+      Hours_of_Service: 8:30 - 5:00 EST
+
+
+      Contact_Instructions: Please email first.
+
+
+  Resource_Description: Integrated cadastral data
+
+
+  Distribution_Liability:
+
+
+    This information is for the purpose of an inventory of real property from various counties as a statewide dataset. It is complied from source cadastral data provided by authoritative county sources. Users of this information are advised that county cadastral sources should be consulted for verification, and users bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other conditions specific to certain data. The State of North Carolina or any employee, representative, or contractor employed by the State assumes no legal responsibility for the content of this information.
+
+
+  Standard_Order_Process:
+
+
+    Digital_Form:
+
+
+      Digital_Transfer_Information:
+
+
+        Format_Name: ArcGIS shapefile
+
+
+      Digital_Transfer_Option:
+
+
+        Online_Option:
+
+
+          Computer_Contact_Information:
+
+
+            Network_Address:
+
+
+              Network_Resource_Name: http://data.nconemap.gov
+
+
+        Offline_Option:
+
+
+          Offline_Media: CD-ROM
+
+
+          Recording_Format: shapefile
+
+
+    Fees: Contact CGIA for information about fees for offline products.
+
+
+  Technical_Prerequisites: All formats supplied are created using ESRI GIS software.  Format compatibility is the user's responsibility.
+
+
+  Available_Time_Period:
+
+
+    Time_Period_Information:
+
+
+      Range_of_Dates/Times:
+
+
+        Beginning_Date: 2014
+
+
+        Beginning_Time: unknown
+
+
+        Ending_Date: Present
+
+
+Metadata_Reference_Information:
+
+
+  Metadata_Date: 20220110
+
+
+  Metadata_Review_Date: 20220110
+
+
+  Metadata_Contact:
+
+
+    Contact_Information:
+
+
+      Contact_Organization_Primary:
+
+
+        Contact_Organization: NC Center for Geographic Information and Analysis
+
+
+      Contact_Address:
+
+
+        Address_Type: mailing address
+
+
+        Address: 20322 Mail Service Center
+
+
+        City: Raleigh
+
+
+        State_or_Province: NC
+
+
+        Postal_Code: 27699
+
+
+        Country: USA
+
+		
+      Hours_of_Service: 8:30 - 5:00  EST
+
+
+      Contact_Instructions: Please submit any questions or comments through the NC OneMap feedback page found here: https://www.nconemap.gov/pages/feedback 
+
+
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+
+
+  Metadata_Standard_Version: FGDC-STD-001-1998
+
+
+  Metadata_Time_Convention: local time
+
+
+  Metadata_Access_Constraints: None
+
+
+  Metadata_Use_Constraints: This metadata file is to accompany the aggregated data set identified and received from participating Counties. The source data metadata for individual county contributors can be obtained from the county. If this data file was received from a third party, this metadata file and the data set it describes may contain discrepancies.
+
+
+  Metadata_Extensions:
+
+
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+
+
+    Profile_Name: ESRI Metadata Profile
