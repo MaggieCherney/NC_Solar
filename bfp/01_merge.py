@@ -9,9 +9,9 @@ Created on Fri Feb  4 13:21:51 2022
 
 import geopandas as gpd
 
-building_file = "data/bfp_37055.gpkg"
-parcel_file = "data/dare_parcels.zip!nc_dare_parcels_poly.shp"
-point_file = "data/dare_parcels.zip!nc_dare_parcels_pt.shp"
+building_file = "../Data/bfp_37055.gpkg"
+parcel_file = "../Data/dare_parcels.zip!nc_dare_parcels_poly.shp"
+point_file = "../Data/dare_parcels.zip!nc_dare_parcels_pt.shp"
 
 output_file = "merged.gpkg"
 
