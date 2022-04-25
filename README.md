@@ -24,24 +24,24 @@ Reads and analyzes state-level Census block group data regarding race and median
 #
 **01_census_blocks.py**
 Reads the North Carolina Census block TIGER/Line file, retrieves population data for each block via a Census API call, filters the blocks to the county of interest, only keeps blocks where people live (population > 0), and writes out a county specific block file.
-
+#
 **02_merge_bfp_parcel.py**
 Reads the Microsoft building file, and the county specific parcel file, reprojects both files to epsg 32617, converts the building footprint to centroids, computes each building footprint’s area and includes this as an attribute, spatially joins the buildings footprints and parcels and writes out the results in a geopackage.
-
+#
 **03_largest_bfp.py**
 Reads the merged building footprint and parcel file from the previous script, filters the buildings based on size, only keeps the largest building footprint on each parcel, and writes out a geopackage.
-
+#
 **04_merge_bfp_blocks.py**
 Reads in the largest building file from the previous script and the county block output file from the 01_census_blocks.py script, spatially joins the two files, and writes out a geopackage.
-
+#
 **05_block_houses_bgs.py**
 Reads in the merged building footprint and block file from the previous script, the county block output file from the 01_cenuss_blocks.py script, and the North Carolina Census block group TIGER/Line file. 
 
 Filters the buildings to only keep those that are less than 500 m2, calculates the usable area and potential solar capacity (kW) of each roof, groups the blocks by block group, merges the block data onto the block geography, and writes out a geopackage that includes the number of buildings, the usable area, and the estimated kW capacity by block and block group. 
-
+#
 **06_census_acs.py**
 Retrieves data regarding race, median income in the past 12 months, and year structure built for county block groups and writes out the results in a csv. 
-
+#
 **07_analyze.py**
 Reads in the csv file from the previous script and the output file from the 05_block_houses_bgs.py script. 
 
