@@ -19,7 +19,9 @@ The results of this analysis are intended to support the clean energy transition
 
 ## Scripts 
 **00_NC_analyze.py**
-Reads and analyzes state-level Census block group data regarding race and median income and defines the parameters for potential environmental justice communities in a json file (NC_info.json) used in later scripts to identify potential environmental justice communities.
+Reads and analyzes an existing csv file in the repository that contains North Carolina's Census block group data regarding race and median income. 
+
+Defines the parameters for potential environmental justice communities in a json file (NC_info.json) used in later scripts to identify potential environmental justice communities.
 #
 **01_census_blocks.py**
 Reads the North Carolina Census block TIGER/Line file, retrieves population data for each block via a Census API call, filters the blocks to the county of interest, only keeps blocks where people live (population > 0), and writes out a county specific block file.
