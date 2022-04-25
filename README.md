@@ -13,8 +13,10 @@ The results of this analysis are intended to support the clean energy transition
 # External Data 
 **Parcels:** 
 1.	Go to https://www.nconemap.gov/pages/parcels and download parcel data for the county of interest.
+
 **Building Footprints:** 
 1.	Go to the Microsoft Building Footprint GitHub site (https://github.com/Microsoft/USBuildingFootprints) and download the building footprint file for North Carolina.
+
 **Census Blocks:**
 1.	Go to the Census TIGER/Line Files page (https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) and download the 2019 Census block and block group files for North Carolina.  
 
