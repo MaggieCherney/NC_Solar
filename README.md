@@ -11,14 +11,11 @@ The results of this analysis are intended to support the clean energy transition
 2.	Open the county.json file saved in the repository and update the county name, geoid, and FIPS code. 
 
 # External Data 
-**Parcels:** 
-1.	Go to https://www.nconemap.gov/pages/parcels and download parcel data for the county of interest.
+**Parcels:** Go to https://www.nconemap.gov/pages/parcels and download parcel data for the county of interest.
 
-**Building Footprints:** 
-1.	Go to the Microsoft Building Footprint GitHub site (https://github.com/Microsoft/USBuildingFootprints) and download the building footprint file for North Carolina.
+**Building Footprints:** Go to the Microsoft Building Footprint GitHub site (https://github.com/Microsoft/USBuildingFootprints) and download the building footprint file for North Carolina.
 
-**Census Blocks:**
-1.	Go to the Census TIGER/Line Files page (https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) and download the 2019 Census block and block group files for North Carolina.  
+**Census Blocks:** Go to the Census TIGER/Line Files page (https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) and download the 2019 Census block and block group files for North Carolina.  
 
 # Scripts 
 **00_NC_analyze.py**
