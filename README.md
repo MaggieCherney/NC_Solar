@@ -11,17 +11,17 @@ The results of this analysis are intended to support the clean energy transition
 2.	Open the county.json file saved in the repository and update the county name, geoid, and FIPS code. 
 
 # External Data 
-Parcels: 
+**Parcels:** 
 1.	Go to https://www.nconemap.gov/pages/parcels and download parcel data for the county of interest.
-Building Footprints: 
+**Building Footprints:** 
 1.	Go to the Microsoft Building Footprint GitHub site (https://github.com/Microsoft/USBuildingFootprints) and download the building footprint file for North Carolina.
-Census Blocks:
+**Census Blocks:**
 1.	Go to the Census TIGER/Line Files page (https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) and download the 2019 Census block and block group files for North Carolina.  
 
 # Scripts 
 **00_NC_analyze.py**
 Reads and analyzes state-level Census block group data regarding race and median income and defines the parameters for potential environmental justice communities in a json file (NC_info.json) used in later scripts to identify potential environmental justice communities.
-
+#
 **01_census_blocks.py**
 Reads the North Carolina Census block TIGER/Line file, retrieves population data for each block via a Census API call, filters the blocks to the county of interest, only keeps blocks where people live (population > 0), and writes out a county specific block file.
 
