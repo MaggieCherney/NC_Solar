@@ -1,12 +1,12 @@
-## North Carolina Residential Solar Analysis 
+# North Carolina Residential Solar Analysis 
 
-# Background and Purpose 
+## Background and Purpose 
 
 This repository contains scripts that conduct a county-level analysis to predict potential residential solar generation capacity for all 100 counties in North Carolina. Using parcel data, building footprints, and census variables the analysis estimates the potential volume of residential solar feasible for installation in each county. The scripts also include a detailed analysis of potential residential solar generation capacity in North Carolina’s environmental justice communities. The analysis geographically identifies environmental justice communities according to parameters regarding race and median income and creates geopackage files that the user can use to heat map potential solar kilowatt capacity and environmental justice community locations. 
 
 The results of this analysis are intended to support the clean energy transition and promote energy justice through increased residential solar installations in North Carolina’s environmental justice communities. 
 
-# Modifying the county.json file 
+## Modifying the county.json file 
 1.	Open the nc_counties.csv file saved in the repository and locate the county of interest. 
 2.	Open the county.json file saved in the repository and update the county name, geoid, and FIPS code. 
 
@@ -17,7 +17,7 @@ The results of this analysis are intended to support the clean energy transition
 
 **Census Blocks:** Go to the Census TIGER/Line Files page (https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) and download the 2019 Census block and block group files for North Carolina.  
 
-# Scripts 
+## Scripts 
 **00_NC_analyze.py**
 Reads and analyzes state-level Census block group data regarding race and median income and defines the parameters for potential environmental justice communities in a json file (NC_info.json) used in later scripts to identify potential environmental justice communities.
 #
