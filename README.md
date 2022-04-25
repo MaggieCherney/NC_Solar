@@ -10,7 +10,7 @@ The results of this analysis are intended to support the clean energy transition
 1.	Open the nc_counties.csv file saved in the repository and locate the county of interest. 
 2.	Open the county.json file saved in the repository and update the county name, geoid, and FIPS code. 
 
-# External Data 
+## External Data 
 **Parcels:** Go to https://www.nconemap.gov/pages/parcels and download parcel data for the county of interest.
 
 **Building Footprints:** Go to the Microsoft Building Footprint GitHub site (https://github.com/Microsoft/USBuildingFootprints) and download the building footprint file for North Carolina.
