@@ -20,7 +20,7 @@ input_file = f"census-acs-bgs-{county_code}.csv"
 
 house_file = f"houses_by_block_{county_code}.gpkg"
 
-bgs = pd.read_csv(input_file)
+bgs = pd.read_csv(input_file,dtype={"geoid":str})
 houses = gpd.read_file(house_file, layer="bgs")
 
 #%%
@@ -56,8 +56,15 @@ print(houses["usable_kw"].sum())
 #%%
 
 # pct nonwhite by block group 
+trim = bgs[["geoid","B02001_002E","B02001_001E","B19013_001E"]]
+trim = trim.rename(columns = {"B02001_002E":"white_pop",
+                              "B02001_001E":"total_pop",
+                              "B19013_001E":"median_inc",
+                              "geoid":"GEOID"})
 
-pct_nonwhite_bg = 1-(bgs["B02001_002E"]/bgs["B02001_001E"])
+houses = houses.merge(trim,on="GEOID",validate="1:1",how="outer")
+
+pct_nonwhite_bg = 1-(houses["white_pop"]/houses["total_pop"])
 
 pct_nonwhite_bg = pct_nonwhite_bg.dropna()
 
@@ -67,7 +74,7 @@ houses["ej_race"] = houses["ej_race"].where(pct_nonwhite_bg < ej_race_cutoff,"R"
 #%%
 
 houses["ej_inc"] = ""
-houses["ej_inc"] = houses["ej_inc"].where(bgs["B19013_001E"] > ej_inc_cutoff,"E")
+houses["ej_inc"] = houses["ej_inc"].where(houses["median_inc"] > ej_inc_cutoff,"E")
 
 #%%
 
@@ -82,7 +89,19 @@ houses["mean_kw"] = houses["usable_kw"]/houses["count"]
 
 #%%
 
-houses.to_file(f"houses_{county_code}.gpkg",layer="bgs")
+grouped = houses.groupby("ej_flag")
+
+total_kw = grouped[["usable_kw","total_pop"]].sum()
+total_kw["kw_pct"] = total_kw["usable_kw"]/total_kw["usable_kw"].sum()*100
+total_kw["pop_pct"] = total_kw["total_pop"]/total_kw["total_pop"].sum()*100
+
+total_kw["county"] = county_code
+
+total_kw.to_csv(f"summary_{county_code}.csv")
+
+#%%
+
+houses.to_file(f"houses_{county_code}.gpkg",layer="bgs",index=False)
 
 
 

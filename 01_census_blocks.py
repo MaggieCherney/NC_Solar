@@ -120,7 +120,7 @@ pop = merge.query("pop > 0")
 
 # write out the results as a gpkg
 
-pop.to_file(output_file,layer="blocks")
+pop.to_file(output_file,layer="blocks",index=False)
 
 
 

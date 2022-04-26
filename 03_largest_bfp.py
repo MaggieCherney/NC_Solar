@@ -27,5 +27,5 @@ largest["building_count"]=groups.size()
 
 #%% Write out the results 
 
-largest.to_file(output_file, layer="buildings")
+largest.to_file(output_file,layer="buildings",index=False)
 

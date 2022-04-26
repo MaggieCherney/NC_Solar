@@ -42,7 +42,7 @@ block_geoid = block_geoid.to_crs(epsg=32617)
 
 merged = gpd.sjoin(bfp, block_geoid, how='left')
 
-merged.to_file(output_file, driver="GPKG", layer="buildings")
+merged.to_file(output_file,layer="buildings",index=False)
 
 
 

@@ -35,4 +35,4 @@ areas = areas.rename(columns={0:"area"})
 #%%
 
 merged = gpd.sjoin(areas, poly, how='left')
-merged.to_file(output_file, layer="buildings")
+merged.to_file(output_file,layer="buildings",index=False)

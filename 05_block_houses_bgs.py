@@ -69,8 +69,8 @@ merged = merged.drop(columns = '_merge')
 
 # write out the results 
 
-houses_500.to_file(output_file,layer="houses")
-merged.to_file(output_file,layer="blocks")
+houses_500.to_file(output_file,layer="houses",index=False)
+merged.to_file(output_file,layer="blocks",index=False)
 
 #%%
 
@@ -120,7 +120,7 @@ bgs_merged = bgs_merged.drop(columns = '_merge')
 
 # write out the results as the bgs layer 
 
-bgs_merged.to_file(output_file,layer="bgs")
+bgs_merged.to_file(output_file,layer="bgs",index=False)
 
 
 
