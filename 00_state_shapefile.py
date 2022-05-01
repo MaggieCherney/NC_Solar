@@ -1,6 +1,7 @@
 """
 state_shapefile.py
 Oct 2021 PJW
+Author: Peter Wilcoxen 
 
 Read one of Microsoft's building footprint files, which are in 
 geojson format and slow to load, and convert it to a shapefile. 

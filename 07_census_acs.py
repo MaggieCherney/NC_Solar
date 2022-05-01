@@ -1,9 +1,10 @@
 #! /bin/python3
-#  Spring 2022 PJW
-#
-#  Use the Census API to collect information listed in an
-#  accompanying input file.
-#
+"""
+Spring 2022 PJW
+Author: Peter Wilcoxen 
+
+Use the Census API to collect information listed in an accompanying input file.
+"""
 
 import requests
 import pandas as pd

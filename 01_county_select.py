@@ -1,6 +1,7 @@
 """
 county_select.py
 Oct 2021 PJW
+Author: Peter Wilcoxen
 
 Extract building footprints for a given county from the MS 
 footprint file. Can read either the original zipped geojson files 

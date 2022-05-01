@@ -11,7 +11,7 @@ The results of this analysis are intended to support the clean energy transition
 
 **Building Footprints:** Go to the Microsoft Building Footprint GitHub site (https://github.com/Microsoft/USBuildingFootprints) and download the building footprint file for North Carolina.
 
-**Census Blocks:** Go to the Census TIGER/Line Files page (https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) and download the 2019 Census block and block group files for North Carolina.  
+**Census Counties, Blocks Groups, and Blocks:** Go to the Census TIGER/Line Files page (https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) and download the US 2019 Census county TIGER/Line File and the North Carolina 2019 Census block groups and block TIGER/Line Files.  
 
 ## Selecting the county 
 1.	Open the nc_counties.csv file saved in the repository and locate the county of interest. 
@@ -27,7 +27,7 @@ Defines the parameters for potential environmental justice communities in a json
 Reads in the North Carolina Microsoft building footprint file and converts the geojson (.geojson) file to a shape file (.shp).
 #
 **01_county_select.py** (*needs to be run once per county*)
-Reads in the North Carolina Microsoft building footprint shape file, selects the building footprints for the county of interest, and writes out the results as a geopackage.  
+Reads in the North Carolina Microsoft building footprint shape file and the Census county file, selects the building footprints for the county of interest, and writes out the results as a geopackage.  
 #
 **02_census_blocks.py** (*needs to be run once per county*)
 Reads the North Carolina Census block TIGER/Line file, retrieves population data for each block via a Census API call, filters the blocks to the county of interest, only keeps blocks where people live (population > 0), and writes out a county specific block file.
@@ -58,6 +58,6 @@ Calculates the percent of people of color in each block group and assigns the en
 
 Assigns the environmental justice community flag “E” to block groups that are below the median income threshold identified in 00_NC_analyze.py script and corresponding NC_info.json file.
 
-Calculates the mean kW per house by block group. 
+Calculates the mean kW per house by block group, groups the houses by the environmental justice indicators, calculates the proportion of kW capacity in environmental justice communities, and calculates the proportion of the population in environmental justice communities. 
 
-Writes out the results in a geopackage. 
+Writes out the results in a geopackage and a csv. 
