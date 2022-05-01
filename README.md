@@ -6,10 +6,6 @@ This repository contains scripts that conduct a county-level analysis to predict
 
 The results of this analysis are intended to support the clean energy transition and promote energy justice through increased residential solar installations in North Carolina’s environmental justice communities. 
 
-## Modifying the county.json file 
-1.	Open the nc_counties.csv file saved in the repository and locate the county of interest. 
-2.	Open the county.json file saved in the repository and update the county name, geoid, and FIPS code. 
-
 ## External Data 
 **Parcels:** Go to https://www.nconemap.gov/pages/parcels and download parcel data for the county of interest.
 
@@ -17,33 +13,43 @@ The results of this analysis are intended to support the clean energy transition
 
 **Census Blocks:** Go to the Census TIGER/Line Files page (https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) and download the 2019 Census block and block group files for North Carolina.  
 
+## Selecting the county 
+1.	Open the nc_counties.csv file saved in the repository and locate the county of interest. 
+2.	Open the county.json file saved in the repository and update the county name, geoid, and FIPS code.
+
 ## Scripts 
-**00_NC_analyze.py**
+**00_NC_analyze.py** (*only needs to be run once for the state*)
 Reads and analyzes an existing csv file in the repository that contains North Carolina's Census block group data regarding race and median income. 
 
 Defines the parameters for potential environmental justice communities in a json file (NC_info.json) used in later scripts to identify potential environmental justice communities.
 #
-**01_census_blocks.py**
+**00_state_shapefile.py** (*only needs to be run once for the state*)
+Reads in the North Carolina Microsoft building footprint file and converts the geojson (.geojson) file to a shape file (.shp).
+#
+**01_county_select.py** (*needs to be run once per county*)
+Reads in the North Carolina Microsoft building footprint shape file, selects the building footprints for the county of interest, and writes out the results as a geopackage.  
+#
+**02_census_blocks.py** (*needs to be run once per county*)
 Reads the North Carolina Census block TIGER/Line file, retrieves population data for each block via a Census API call, filters the blocks to the county of interest, only keeps blocks where people live (population > 0), and writes out a county specific block file.
 #
-**02_merge_bfp_parcel.py**
+**03_merge_bfp_parcel.py** (*needs to be run once per county*)
 Reads the Microsoft building file, and the county specific parcel file, reprojects both files to epsg 32617, converts the building footprint to centroids, computes each building footprint’s area and includes this as an attribute, spatially joins the buildings footprints and parcels and writes out the results in a geopackage.
 #
-**03_largest_bfp.py**
+**04_largest_bfp.py** (*needs to be run once per county*)
 Reads the merged building footprint and parcel file from the previous script, filters the buildings based on size, only keeps the largest building footprint on each parcel, and writes out a geopackage.
 #
-**04_merge_bfp_blocks.py**
+**05_merge_bfp_blocks.py** (*needs to be run once per county*)
 Reads in the largest building file from the previous script and the county block output file from the 01_census_blocks.py script, spatially joins the two files, and writes out a geopackage.
 #
-**05_block_houses_bgs.py**
+**06_block_houses_bgs.py** (*needs to be run once per county*)
 Reads in the merged building footprint and block file from the previous script, the county block output file from the 01_cenuss_blocks.py script, and the North Carolina Census block group TIGER/Line file. 
 
 Filters the buildings to only keep those that are less than 500 m2, calculates the usable area and potential solar capacity (kW) of each roof, groups the blocks by block group, merges the block data onto the block geography, and writes out a geopackage that includes the number of buildings, the usable area, and the estimated kW capacity by block and block group. 
 #
-**06_census_acs.py**
+**07_census_acs.py** (*needs to be run once per county*)
 Retrieves data regarding race, median income in the past 12 months, and year structure built for county block groups and writes out the results in a csv. 
 #
-**07_analyze.py**
+**08_analyze.py** (*needs to be run once per county*)
 Reads in the csv file from the previous script and the output file from the 05_block_houses_bgs.py script. 
 
 Calculates the percent of homes in each block group built during or after 1950 and applies this proportion to the usable area estimate. 
