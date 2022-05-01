@@ -7,11 +7,11 @@ This repository contains scripts that conduct a county-level analysis to predict
 The results of this analysis are intended to support the clean energy transition and promote energy justice through increased residential solar installations in North Carolina’s environmental justice communities. 
 
 ## External Data 
-**Parcels:** Go to https://www.nconemap.gov/pages/parcels and download parcel data for the county of interest.
+**Parcels:** Go to https://www.nconemap.gov/pages/parcels and download parcel data for the county of interest.(*needs to be downloaded once per county*)
 
-**Building Footprints:** Go to the Microsoft Building Footprint GitHub site (https://github.com/Microsoft/USBuildingFootprints) and download the building footprint file for North Carolina.
+**Building Footprints:** Go to the Microsoft Building Footprint GitHub site (https://github.com/Microsoft/USBuildingFootprints) and download the building footprint file for North Carolina.(*only needs to be downloaded once for the state*)
 
-**Census Counties, Blocks Groups, and Blocks:** Go to the Census TIGER/Line Files page (https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) and download the US 2019 Census county TIGER/Line File and the North Carolina 2019 Census block groups and block TIGER/Line Files.  
+**Census Counties, Blocks Groups, and Blocks:** Go to the Census TIGER/Line Files page (https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) and download the US 2019 Census county TIGER/Line File and the North Carolina 2019 Census block groups and block TIGER/Line Files. (*only need to be downloaded once for the state*)  
 
 ## Selecting the county 
 1.	Open the nc_counties.csv file saved in the repository and locate the county of interest. 
