@@ -67,4 +67,4 @@ Writes out the results in a geopackage and a csv.
 
 The map below was created in QGIS with the results from this analysis. The heat mapping is based on usable_kw and the labels were added from the ej_flag variable. 
 
-
+![Rockingham County Solar](https://github.com/MaggieCherney/NC_Solar/blob/main/rockingham_solar.png "Rockingham County Solar")
