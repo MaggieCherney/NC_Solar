@@ -13,7 +13,6 @@ import json
 
 specs = json.load( open('county.json') )
 county_code = specs['geoid']
-county_fips_code = specs['county_fips_code']
 
 
 #
@@ -28,7 +27,7 @@ acs_yr = 2019
 geography = ['bgs']
 ifile = 'input-variables.csv'
 state_fips = '37'
-county_fips = f'{county_fips_code}'
+county_fips = f'{county_code[2:]}'
 
 #
 #  Make a subdirectory for individual tables

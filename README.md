@@ -15,7 +15,7 @@ The results of this analysis are intended to support the clean energy transition
 
 ## Selecting the county 
 1.	Open the nc_counties.csv file saved in the repository and locate the county of interest. 
-2.	Open the county.json file saved in the repository and update the county name, geoid, and FIPS code.
+2.	Open the county.json file saved in the repository and update the county name and geoid.
 
 ## Scripts 
 **00_NC_analyze.py** (*only needs to be run once for the state*)

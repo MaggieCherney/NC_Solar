@@ -11,7 +11,6 @@ import json
 
 specs = json.load( open('county.json') )
 county_code = specs['geoid']
-county_fips_code = specs['county_fips_code']
 
 input_file = f"merged_bfp_blocks_{county_code}.gpkg"
 block_file = f"blocks_{county_code}.gpkg"
@@ -82,7 +81,7 @@ block_groups = gpd.read_file(bgs_file)
 
 # select the bgs in the county 
 
-county_bgs = block_groups["COUNTYFP"].str.startswith(county_fips_code)
+county_bgs = block_groups["COUNTYFP"].str.startswith(county_code[2:])
 
 # create a dataframe of the county bgs
 
