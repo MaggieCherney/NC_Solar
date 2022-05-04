@@ -61,3 +61,10 @@ Assigns the environmental justice community flag “E” to block groups that ar
 Calculates the mean kW per house by block group, groups the houses by the environmental justice indicators, calculates the proportion of kW capacity in environmental justice communities, and calculates the proportion of the population in environmental justice communities. 
 
 Writes out the results in a geopackage and a csv. 
+#
+
+# Results
+
+The map below was created in QGIS with the results from this analysis. The heat mapping is based on usable_kw and the labels were added from the ej_flag variable. 
+
+
