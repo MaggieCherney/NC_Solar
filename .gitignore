@@ -28,3 +28,4 @@ makefile
 *.pkl
 *.zip
 *.csv
+!nc_counties.csv
