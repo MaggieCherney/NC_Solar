@@ -1,4 +1,4 @@
-﻿NAME,GEOID
+﻿name,geoid
 alamance,37001
 alexander,37003
 alleghany,37005
@@ -57,7 +57,7 @@ lincoln,37109
 macon,37113
 madison,37115
 martin,37117
-,37111
+mcdowell,37111
 mecklenburg,37119
 mitchell,37121
 montgomery,37123

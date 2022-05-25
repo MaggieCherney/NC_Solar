@@ -29,3 +29,5 @@ largest["building_count"]=groups.size()
 
 largest.to_file(output_file,layer="buildings",index=False)
 
+print("finished 04_largest_bfp.py")
+

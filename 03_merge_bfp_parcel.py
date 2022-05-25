@@ -14,7 +14,7 @@ county_code = specs['geoid']
 county_name = specs['name']
 
 building_file = f"bfp_{county_code}.gpkg"
-parcel_file = f"{county_name}_parcels.zip!nc_{county_name}_parcels_poly.shp"
+parcel_file = f"parcels/{county_name}_parcels.zip!nc_{county_name}_parcels_poly.shp"
 
 output_file = f"merged_bfp_parcels_{county_code}.gpkg"
 #%%
@@ -36,3 +36,5 @@ areas = areas.rename(columns={0:"area"})
 
 merged = gpd.sjoin(areas, poly, how='left')
 merged.to_file(output_file,layer="buildings",index=False)
+
+print("finished 03_merge_bfp_parcel.py")

@@ -9,6 +9,8 @@ Created on Thu Mar 24 15:34:04 2022
 import geopandas as gpd
 import json
 
+print("started 05_merge_bfp_blocks.py")
+
 specs = json.load( open('county.json') )
 county_code = specs['geoid']
 
@@ -43,6 +45,8 @@ block_geoid = block_geoid.to_crs(epsg=32617)
 merged = gpd.sjoin(bfp, block_geoid, how='left')
 
 merged.to_file(output_file,layer="buildings",index=False)
+
+print("finished 05_merge_bfp_blocks.py")
 
 
 

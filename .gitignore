@@ -31,3 +31,4 @@ makefile
 !nc_counties.csv
 !input-variables.csv
 !census-acs-bgs-NC.csv
+*.txt

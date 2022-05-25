@@ -84,3 +84,5 @@ this_county.to_file( gfile, layer="county", driver="GPKG", index=False )
 
 print( f"   building footprints, {len(build)} features...", flush=True )
 build.to_file( gfile, layer="buildings", driver="GPKG", index=False )
+
+print("finished 01_county_select.py")

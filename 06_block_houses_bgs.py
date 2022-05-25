@@ -9,6 +9,8 @@ import pandas as pd
 import geopandas as gpd
 import json
 
+print("started 06_block_houses_bgs.py")
+
 specs = json.load( open('county.json') )
 county_code = specs['geoid']
 
@@ -120,6 +122,8 @@ bgs_merged = bgs_merged.drop(columns = '_merge')
 # write out the results as the bgs layer 
 
 bgs_merged.to_file(output_file,layer="bgs",index=False)
+
+print("finished 06_block_houses_bgs.py")
 
 
 

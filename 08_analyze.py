@@ -97,12 +97,19 @@ total_kw["pop_pct"] = total_kw["total_pop"]/total_kw["total_pop"].sum()*100
 
 total_kw["county"] = county_code
 
-total_kw.to_csv(f"summary_{county_code}.csv")
+total_kw.to_csv(f"county/summary_{county_code}.csv")
 
 #%%
 
-houses.to_file(f"houses_{county_code}.gpkg",layer="bgs",index=False)
+houses.to_file(f"county/houses_{county_code}.gpkg",layer="bgs",index=False)
 
+#%%
+
+houses = houses.drop(columns="geometry")
+
+houses.to_csv(f"county/full_{county_code}.csv")
+
+print("finished 08_analyze.py")
 
 
 

@@ -11,6 +11,8 @@ import pandas as pd
 import geopandas as gpd
 import json
 
+print("started 02_census_blocks.py")
+
 specs = json.load( open('county.json') )
 county_code = specs['geoid']
 
@@ -30,7 +32,8 @@ payload = {'get':'P003001',
            'in':in_clause,
            'key':key_value}
 
-response = requests.get(api,payload)
+response = requests.get(api,payload,timeout=1)
+response.raise_for_status()
 
 #%%
 
@@ -120,6 +123,8 @@ pop = merge.query("pop > 0")
 # write out the results as a gpkg
 
 pop.to_file(output_file,layer="blocks",index=False)
+
+print("finished 02_census_blocks.py")
 
 
 

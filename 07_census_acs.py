@@ -43,6 +43,7 @@ if not os.path.exists('raw'):
 
 api = f'https://api.census.gov/data/{acs_yr}/acs/acs5'
 in_clause = f'state:{state_fips} county:{county_fips}'
+key_value = "5e68fcb5c9823ef307b5126995727b3ae470dc0d"
   
 for geo in geography:
 
@@ -83,14 +84,18 @@ for geo in geography:
         var_list = ['NAME']+var_name
         var_string = ','.join(var_list)
     
-        payload = {'get':var_string,'for':for_clause,'in':in_clause}
+        payload = {'get':var_string,
+                   'for':for_clause,
+                   'in':in_clause,
+                   'key':key_value}
     
         #
         #  Make the API call and check whether an error code was 
         #  returned.
         #
     
-        response = requests.get(api,payload)
+        response = requests.get(api,payload,timeout=1)
+        response.raise_for_status()
     
         if response.status_code == 200 :
             print('Request successful')
@@ -177,3 +182,5 @@ for geo in geography:
             merged = merged.drop(columns='_merge')
     
     merged.to_csv(ofile,index=False)
+    
+print("finished 07_census_acs.py")
