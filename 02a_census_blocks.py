@@ -8,21 +8,15 @@ Created on Thu May 26 15:53:49 2022
 
 import requests
 import pandas as pd
-import json
 
 print("started 02a_census_blocks.py")
 
-specs = json.load( open('county.json') )
-county_code = specs['geoid']
-
-tl_2019_block_file = "tl_2019_37_tabblock10.zip"
-
-output_file = f'census_blocks_{county_code}.csv'
+output_file = "census_blocks.csv"
 
 api = "https://api.census.gov/data/2010/dec/sf1"
 
 for_clause = 'block:*'        
-in_clause = f"county:{county_code[2:]} state:37"
+in_clause = "county:* state:37"
 
 key_value = "5e68fcb5c9823ef307b5126995727b3ae470dc0d"
 
