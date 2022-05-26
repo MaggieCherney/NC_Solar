@@ -16,7 +16,7 @@ county_code = specs['geoid']
 
 tl_2019_block_file = "tl_2019_37_tabblock10.zip"
 
-blocks = pd.read_csv(f"census_blocks_{county_code}.csv")
+blocks = pd.read_csv("census_blocks.csv")
 
 output_file = f'blocks_{county_code}.gpkg'
 
