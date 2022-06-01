@@ -11,7 +11,7 @@ python 08_analyze.py          2>&1
 
 #mv bfp_${1}.gpkg temp/ 
 #mv blocks_${1}.gpkg temp/ 
-rm -f bfp_${1}.gpkg blocks_${1}.gpkg census-acs-bgs-${1}.csv 
+rm -f bfp_${1}.gpkg blocks_${1}.gpkg
 rm -f houses_by_block_${1}.gpkg largest_buildings_${1}.gpkg 
 rm -f merged_bfp_blocks_${1}.gpkg merged_bfp_parcels_${1}.gpkg
 # remove all of the intermediate gpkg
