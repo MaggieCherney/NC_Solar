@@ -1,14 +1,13 @@
 #! /bin/zsh
 #touch county/full_${1}.csv
 
-python 01_county_select.py
-python 02_census_blocks.py
-python 03_merge_bfp_parcel.py
-python 04_largest_bfp.py
-python 05_merge_bfp_blocks.py
-python 06_block_houses_bgs.py
-python 07_census_acs.py
-python 08_analyze.py
+python 01_county_select.py    2>&1
+python 02a_census_blocks.py   2>&1
+python 03_merge_bfp_parcel.py 2>&1
+python 04_largest_bfp.py      2>&1
+python 05_merge_bfp_blocks.py 2>&1
+python 06_block_houses_bgs.py 2>&1
+python 08_analyze.py          2>&1
 
 #mv bfp_${1}.gpkg temp/ 
 #mv blocks_${1}.gpkg temp/ 
