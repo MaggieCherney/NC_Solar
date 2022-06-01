@@ -16,11 +16,12 @@ specs_s = json.load( open('NC_info.json') )
 ej_inc_cutoff = specs_s['ej_inc_cutoff']
 ej_race_cutoff = specs_s['ej_race_cutoff']
 
-input_file = f"census-acs-bgs-{county_code}.csv"
+input_file = "census-acs-bgs.csv"
 
 house_file = f"houses_by_block_{county_code}.gpkg"
 
 bgs = pd.read_csv(input_file,dtype={"geoid":str})
+bgs = bgs[bgs['geoid'].str.startswith(county_code)]
 houses = gpd.read_file(house_file, layer="bgs")
 
 #%%

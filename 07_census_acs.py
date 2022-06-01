@@ -147,7 +147,7 @@ for table,table_info in grps:
     if len(var_name) == ndrop:
         print(f'Warning: no remaining variables for {table} so no file written.')
     else:            
-        fname = f'raw/{table.lower()}-{geo}.csv'
+        fname = f'raw/{table.lower()}.csv'
         data.to_csv(fname)
         files.append( fname )
  
