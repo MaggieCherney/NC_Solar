@@ -13,6 +13,9 @@ import pandas as pd
 #import sys
 cmd = "./process_county.sh"
 cfile = "tl_2019_us_county.zip"
+temp_prefixes = ['bfp','blocks','houses_by_block',
+                 'largest_buildings','merged_bfp_blocks',
+                 'merged_bfp_parcels']
 nc_counties = pd.read_csv("nc_counties.csv",dtype=str)
 nc_counties = nc_counties.to_dict(orient="records")
 # counties = [
@@ -24,6 +27,7 @@ nc_counties = nc_counties.to_dict(orient="records")
 for cinfo in nc_counties[:30]:
     print(cinfo["name"],flush=True)
     c = cinfo["geoid"]
+    temp_files = [f'{pre}_{c}.gpkg' for pre in temp_prefixes]
     cinfo["cfile"] = cfile
     fh = open("county.json","w")
     json.dump(cinfo,fh,indent=4)
@@ -42,3 +46,6 @@ for cinfo in nc_counties[:30]:
     if not lastline.startswith("finished 08"):
         print("failed")
         break 
+    else:
+        for temp in temp_files:
+            os.remove(temp)
