@@ -2,7 +2,7 @@
 #touch county/full_${1}.csv
 
 python 01_county_select.py    2>&1
-python 02a_census_blocks.py   2>&1
+python 02b_census_blocks.py   2>&1
 python 03_merge_bfp_parcel.py 2>&1
 python 04_largest_bfp.py      2>&1
 python 05_merge_bfp_blocks.py 2>&1

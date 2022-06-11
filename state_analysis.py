@@ -24,7 +24,7 @@ nc_counties = nc_counties.to_dict(orient="records")
 #     {"geoid":"37125","name":"moore"}
 #     ]
 #%%
-for cinfo in nc_counties[:30]:
+for cinfo in nc_counties[:100]:
     print(cinfo["name"],flush=True)
     c = cinfo["geoid"]
     temp_files = [f'{pre}_{c}.gpkg' for pre in temp_prefixes]
