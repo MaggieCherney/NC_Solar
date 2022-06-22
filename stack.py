@@ -36,12 +36,35 @@ print(merged["_merge"].value_counts())
 merged = merged.drop(columns='_merge')
 
 #%%
+
+counties = gpd.read_file("tl_2019_us_county.zip")
+
+counties = counties.query("STATEFP=='37'")
+
+counties = counties[["COUNTYFP","NAME"]]
+
+merged = merged.merge(counties,on="COUNTYFP",validate="m:1",indicator=True)
+
+print(merged["_merge"].value_counts())
+
+merged = merged.drop(columns='_merge')
+
+#%%
 merged = merged.query("ALAND>0")
 has_pop = merged["total_pop"]>0
-merged["ej_flag"] = merged["ej_flag"].where(has_pop,np.nan)
-merged["ej_race"] = merged["ej_race"].where(has_pop,np.nan)
-merged["ej_inc"] = merged["ej_inc"].where(has_pop,np.nan)
+merged["ej_flag"] = merged["ej_flag"].where(merged["ej_flag"].notna(),"none")
+merged["ej_flag"] = merged["ej_flag"].where(has_pop,"none")
+merged["ej_race"] = merged["ej_race"].where(has_pop,"none")
+merged["ej_inc"] = merged["ej_inc"].where(has_pop,"none")
 stem = "state"
+
+merged["inc_str"] = merged["median_inc"].apply(lambda x: "{:,}".format(x))
+merged["inc_str"] = merged["inc_str"].where(merged["median_inc"]>0,"NA")
+
+merged["pct_poc"] = (1-merged["white_pop"]/merged["total_pop"])*100
+merged["pct_poc"] = merged["pct_poc"].fillna(0)
+
+merged["mw"] = merged["usable_kw"]/1000
 
 merged.to_file(stem,layer="solar",index=False)
 
