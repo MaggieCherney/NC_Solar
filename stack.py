@@ -59,7 +59,10 @@ merged["ej_inc"] = merged["ej_inc"].where(has_pop,"none")
 stem = "state"
 
 merged["inc_str"] = merged["median_inc"].apply(lambda x: "{:,}".format(x))
+merged["inc_str"] = "$"+merged["inc_str"] 
 merged["inc_str"] = merged["inc_str"].where(merged["median_inc"]>0,"NA")
+
+merged["median_inc"] = merged["median_inc"].replace(	-666666666,54602)
 
 merged["pct_poc"] = (1-merged["white_pop"]/merged["total_pop"])*100
 merged["pct_poc"] = merged["pct_poc"].fillna(0)
